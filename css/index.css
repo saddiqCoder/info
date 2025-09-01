@@ -1,0 +1,15 @@
+.header-content {
+    background-color: #DDF4E7;
+}
+
+.siteLogoContainer {
+    display: inline-block;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+a.siteLogoContainer > img.siteLogo {
+    display: inline-block;
+    object-fit: contain;
+    width: 20%;
+}
