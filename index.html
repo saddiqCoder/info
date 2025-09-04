@@ -8,19 +8,20 @@
     <link rel="stylesheet" href="css/bx.gen.css">
     <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/index.css">
+    <script src="https://kit.fontawesome.com/1f1ec3e39a.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="bg-light p-0 m-0 root">
         <!-- START -->
-            <div class="row header-content p-0 m-0">
+            <div class="bag header-content p-0 m-0">
                 <header>
-                    <div class="row">
-                            <nav class="navbar p-1 m-0 navbar-expand bg-danger">
-                                <div class="container  p-0 m-0 bg-warning">
-                                    <a href="#" class="siteLogoContainer bg-success">
-                                        <img src="img/4.png" alt="Logo" class="siteLogo">
+                    <div class="bag p-0">
+                            <nav class="navbar p-0 m-0 mb-0 navbar-expand">
+                                <div class="container-fluid  p-0 px-3 m-0">
+                                    <a href="#" class="siteLogoContainer rounded-5">
+                                        <img src="img/4.png" alt="Logo" class="siteLogo w-1.3 h-1.3">
                                     </a>
-                                    <ul class="navItemsContainer navbar-nav bg-success">
+                                    <ul class="navItemsContainer navbar-nav fw-semibold">
                                         <li class="item nav-item active"><a href="#" class="nav-link">Home</a></li>
                                         <li class="item nav-item"><a href="#" class="nav-link">Services</a></li>
                                         <li class="item nav-item"><a href="#" class="nav-link">Works</a></li>
@@ -29,49 +30,65 @@
                                 </div>
                             </nav>
                         <section>
-                            <div class="row">
-                                <div class="introInfo">
-                                    <p>Hi, I'm <span>Sadiq a Full Stack Web Developer.</span></p>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Dolores cumque sed eaque, explicabo numquam quia quaerat labore 
-                                        quas perspiciatis doloremque sunt!
-                                    </p>
-                                    <div class="introBtnContainer">
-                                        <a href="#" class="btn btnCV">Download CV</a>
-                                        <a href="#" class="btn btnContact">Contact</a>
+                            <div class="bag container col-12 p-5 pb-0 mb-0">
+                                <div class="row m-0 d-flex flex-row">
+                                    <div class="introInfo col-6 d-inline-block">
+                                        <p>Hi, I'm <span>Sadiq a Full Stack Web Developer.</span></p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Dolores cumque sed eaque, explicabo numquam quia quaerat labore 
+                                            quas perspiciatis doloremque sunt!
+                                        </p>
+                                        <div class="introBtnContainer">
+                                            <a href="#" class="btn bg-primary text-white btnCV">Download CV</a>
+                                            <a href="#" class="btn bg-light text-white btnContact">Contact</a>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="introImg">
-                                    <img src="img/5.png" alt="Profile Picture">
+                                    <div class="introImg d-flex justify-content-center align-items-center h-100 col-6">
+                                        <img src="img/5.png" class="img-fluid" alt="Profile Picture">
+                                    </div>
                                 </div>
                             </div>
                         </section>
-                        <div class="extraInfo">
-                            <div class="thumbContainer">
-                                <img src="" alt="Experence" class="thumbIcon">
-                                <p>9+ Years Jobs</p>
-                                <p>Experence</p>
-                            </div>
-                            <div class="thumbContainer">
-                                <img src="" alt="Projects" class="thumbIcon">
-                                <p>100+ Projects</p>
-                                <p>Completed</p>
-                            </div>
-                            <div class="thumbContainer">
-                                <img src="" alt="Availability" class="thumbIcon">
-                                <p>Online 24/7</p>
-                                <p>support</p>
-                            </div>
-                        </div>
                     </div>
                 </header>
             </div>
         <!-- END -->
 
         <!-- START -->
-            <div class="row section-content">
-                <div class="row skillsBox">
+            <div class="extraInfo bg-info container col-12">
+                <div class="row m-0 px-5 d-flex flex-row text-center">
+                    <div class="thumbContainer col-4 p-0 m-0">
+                        <div class="container-fluid d-flex p-0 m-0">
+                            <i class="fa-solid fa-clipboard-list  thumbIcon d-inline-block p-0 m-0 bg-primary rounded-5"></i>
+                            <div class="container">
+                                <p>9+ Years Jobs</p>
+                                <p>Experence</p>
+                            </div>
+                        </div>         
+                    </div>
+                    <div class="thumbContainer col-4 p-0 m-0">
+                        <div class="container-fluid d-flex p-0 m-0">
+                            <!-- <img src="" alt="Experence" class="thumbIcon d-inline-block p-0 m-0 fas fa-clipboard-list"> -->
+                            <div class="container">
+                                <p>100+ Projects</p>
+                                <p>Completed</p>
+                            </div>
+                        </div>         
+                    </div>
+                    <div class="thumbContainer col-4 p-0 m-0">
+                        <div class="container-fluid d-flex p-0 m-0">
+                            <img src="" alt="Experence" class="thumbIcon d-inline-block p-0 m-0">
+                            <div class="container">
+                                <p>Online 24/7</p>
+                                <p>support</p>
+                            </div>
+                        </div>         
+                    </div>
+                </div>
+            </div>
+            <div class="bag section-content">
+                <div class="bag skillsBox">
                     <h3>what i do</h3>
                     <div class="cardBox">
                         <img src="" alt="thumbImg">
@@ -106,7 +123,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row jobsDone">
+                <div class="bag jobsDone">
                     <h4>My Portfolio</h4>
                     <div class="jobContainer">
                         <img src="" alt="jobOne">
@@ -133,7 +150,7 @@
         <!-- END -->
 
         <!-- START -->
-            <div class="row footer-content">
+            <div class="bag footer-content">
 
             </div>
         <!-- END -->
