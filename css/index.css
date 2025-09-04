@@ -1,3 +1,7 @@
+body{
+    font-family: "Ubuntu";
+}
+
 .header-content {
     background-color: #DDF4E7;
 }
@@ -6,6 +10,23 @@
     display: inline-block;
     overflow: hidden;
     object-fit: cover;
+}
+
+nav {color: #26667F;}
+
+.hi {
+    font-family: Pacifico;
+    color: #26667F;
+}
+
+.sadiq {
+    font-family: Shojumaru;
+    color: #124170;
+}
+
+.infoDetail {
+    color: #26667F;
+    font-size: 14px !important;
 }
 
 a.siteLogoContainer > img.siteLogo {
@@ -18,6 +39,6 @@ a.siteLogoContainer > img.siteLogo {
 div.extraInfo{
     border-radius: 100px;
     position: relative;
-    top: -46px;
+    top: -30px;
     width: 80%;
 }
