@@ -10,7 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Shojumaru&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.cdnfonts.com/css/tahoma" rel="stylesheet">
+
     <!-- Our Stylesheet -->
     <link rel="stylesheet" href="css/bx.gen.css">
     <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.css">
@@ -39,7 +40,7 @@
                                 </div>
                             </nav>
                         <section>
-                            <div class="bag container col-12 p-5 pb-0 mb-0">
+                            <div class="bag container-fluid col-12 p-5 pb-0 mb-0">
                                 <div class="row m-0 d-flex flex-row">
                                     <div class="introInfo col-6 d-inline-block">
                                         <p class="hi mb-0">Hi, I'm <br><span class="sadiq fs-2">Sadiq a Full Stack Web Developer.</span></p>
@@ -49,8 +50,8 @@
                                             quas perspiciatis doloremque sunt!
                                         </p>
                                         <div class="introBtnContainer">
-                                            <a href="#" class="btn bg-primary btn-lg text-white btnCV">Download CV</a>
-                                            <a href="#" class="btn btn-outline-light btn-lg text-white btnContact">Contact</a>
+                                            <a href="#" class="btn btn-outline-info btn-lg btnCV">Download CV</a>
+                                            <a href="#" class="btn btn-outline-warning btn-lg btnContact">Contact</a>
                                         </div>
                                     </div>
                                     <div class="introImg d-flex justify-content-center align-items-center h-100 col-6">
@@ -71,7 +72,7 @@
                         <div class="container-fluid d-flex gy-0 p-0 m-0">
                             <p class="m-0"><i class="fa-regular fa-circle-check thumbIcon fs-1 d-inline-block p-0 m-0"></i></p>
                             <div class="container p-0 m-0">
-                                <p class="m-0 text-start">9+ Years Jobs</p>
+                                <p class="m-0 text-start fw-bolder infoTxt">9+ Years Jobs</p>
                                 <p class="m-0 text-start">Experence</p>
                             </div>
                         </div>         
@@ -80,7 +81,7 @@
                         <div class="container-fluid d-flex p-0 m-0">
                             <p class="m-0"><i class="fa-solid fa-clipboard-list thumbIcon fs-1 d-inline-block p-0 m-0"></i></p>
                             <div class="container p-0 m-0">
-                                <p class="m-0 text-start">100+ Projects</p>
+                                <p class="m-0 text-start fw-bolder infoTxt">100+ Projects</p>
                                 <p class="m-0 text-start">Completed</p>
                             </div>
                         </div>         
@@ -89,78 +90,99 @@
                         <div class="container-fluid d-flex p-0 m-0">
                             <p class="m-0"><i class="fa-solid fa-headset thumbIcon fs-1 d-inline-block p-0 m-0"></i></p>
                             <div class="container p-0 m-0">
-                                <p class="m-0 text-start">Online 24/7</p>
+                                <p class="m-0 text-start fw-bolder infoTxt">Online 24/7</p>
                                 <p class="m-0 text-start">support</p>
                             </div>
                         </div>         
                     </div>
                 </div>
             </div>
-            <div class="bag section-content">
-                <div class="bag skillsBox">
-                    <h3>what i do</h3>
-                    <div class="cardBox">
-                        <img src="" alt="thumbImg">
-                        <p>Mobile App</p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Quibusdam error voluptatibus facilis illo provident sed ipsa alias ratione ipsam
-                        </p>
+            <div class="bag section-content container-fluid mt-5 mb-5 ">
+                <h3 class="d-block container">what i do</h3>
+                <div class="bag skillsBox container mb-5 d-flex flex-row flex-wrap align-content-center">
+                    <div class="card border border-0 col-3 shadow m-1 rounded-0 bg-light bg-gradient cardBox">
+                        <div class="card-body">
+                            <h6 class="card-title fw-semibold text-uppercase fs-6" style="font-size: 13px !important;">
+                                <i class="fa-solid fa-laptop-code fs-5"></i> Frontend Development
+                            </h6>
+                            <p class="card-text mb-0 pb-1" style="font-size: 16px;">
+                                I build responsive and interactive user interfaces that provide a seamless and engaging experience across all devices.
+                                <div class="" style="font-size: 12px;">
+                                   <span class="fw-bold">Tech/Tools:</span> React, Vue, Angular, SASS, JavaScript (ES6+), HTML5, CSS3
+                                </div>
+                                
+                            </p>
+                        </div> 
                     </div>
-                    <div class="cardBox">
-                        <img src="" alt="thumbImg">
-                        <p>App Development</p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Quibusdam error voluptatibus facilis illo provident sed ipsa alias ratione ipsam
-                        </p>
+                    <div class="card border border-0 col-3 shadow m-1 rounded-0 bg-light bg-gradient cardBox">
+                        <div class="card-body">
+                            <h6 class="card-title fw-semibold text-uppercase fs-6" style="font-size: 13px !important;">
+                                <i class="fa-solid fa-server"></i> Backend Development
+                            </h6>
+                            <p class="card-text mb-0 pb-1" style="font-size: 16px;">
+                                I engineer robust servers, APIs, and databases that power applications, ensuring logic, security, and performance.
+                                <div class="" style="font-size: 12px;">
+                                   <span class="fw-bold">Tech/Tools:</span>  Node.js, Python (Django/Flask), Ruby on Rails, PHP (Laravel), PostgreSQL, MongoDB
+                                </div>
+                                
+                            </p>
+                        </div> 
                     </div>
-                    <div class="cardBox">
-                        <img src="" alt="thumbImg">
-                        <p>Web Developer</p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Quibusdam error voluptatibus facilis illo provident sed ipsa alias ratione ipsam
-                        </p>
-                    </div>
-                    <div class="cardBox">
-                        <img src="" alt="thumbImg">
-                        <p>Mobile App Developer</p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Quibusdam error voluptatibus facilis illo provident sed ipsa alias ratione ipsam
-                        </p>
+                    <div class="card border border-0 col-3 shadow m-1 rounded-0 bg-light bg-gradient cardBox">
+                        <div class="card-body">
+                            <h6 class="card-title fw-semibold text-uppercase fs-6" style="font-size: 13px !important;">
+                                <i class="fa-solid fa-layer-group"></i> Full-Stack Solutions
+                            </h6>
+                            <p class="card-text mb-0 pb-1" style="font-size: 16px;">
+                                I own the project from concept to launch, seamlessly connecting the client-side and server-side for a fully-functional product
+                                <div class="" style="font-size: 12px;">
+                                   <span class="fw-bold">Tech/Tools:</span> (Combine from Frontend & Backend), Next.js, Express.js
+                                </div>
+                                
+                            </p>
+                        </div> 
                     </div>
                 </div>
-                <div class="bag jobsDone">
-                    <h4>My Portfolio</h4>
-                    <div class="jobContainer">
-                        <img src="" alt="jobOne">
-                        <div></div>
-                        <p>The services provide for design</p>
+                
+                <h4 class="d-block container">My Portfolio</h4>
+                <div class="bag jobsDone container d-flex flex-row flex-wrap align-content-center justify-content-space-between">
+                    <div class="jobContainer card col-3 m-1">
+                        <img src="img/job1.jpeg" class="card-img-top" alt="jobOne">
+                        <div class="card-body">
+                            <p class="card-text">The services provide for design</p>
+                        </div>
                     </div>
-                    <div class="jobContainer">
-                        <img src="" alt="jobTwo">
-                        <div></div>
-                        <p>The services provide for design</p>
+                    <div class="jobContainer card col-3 m-1">
+                        <img src="img/job2.jpeg" class="card-img-top" alt="jobOne">
+                        <div class="card-body">
+                            <p class="card-text">The services provide for design</p>
+                        </div>
                     </div>
-                    <div class="jobContainer">
-                        <img src="" alt="jobThree">
-                        <div></div>
-                        <p>The services provide for design</p>
+                    <div class="jobContainer card col-3 m-1">
+                        <img src="img/job3.jpeg" class="card-img-top" alt="jobOne">
+                        <div class="card-body">
+                            <p class="card-text">The services provide for design</p>
+                        </div>
                     </div>
-                    <div class="jobContainer">
-                        <img src="" alt="jobFour">
-                        <div></div>
-                        <p>The services provide for design</p>
+                    <div class="jobContainer card col-3 m-1">
+                        <img src="img/job4.jpeg" class="card-img-top" alt="jobOne">
+                        <div class="card-body">
+                            <p class="card-text">The services provide for design</p>
+                        </div>
+                    </div>
+                    <div class="jobContainer card col-3 m-1">
+                        <img src="img/job5.jpeg" class="card-img-top" alt="jobOne">
+                        <div class="card-body">
+                            <p class="card-text">The services provide for design</p>
+                        </div>
                     </div>
                 </div>
             </div>
         <!-- END -->
 
         <!-- START -->
-            <div class="bag footer-content">
-
+            <div class="bag footer-content container-fluid p-5 bg-body-tertiary">
+                <a href="#" class="copywrite text-center">Develop with ❤ By Sadiq</a>
             </div>
         <!-- END -->
     </div>

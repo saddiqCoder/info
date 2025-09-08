@@ -29,6 +29,14 @@ nav {color: #26667F;}
     font-size: 14px !important;
 }
 
+.infoTxt {
+    color: #124170;
+}
+
+p.infoTxt + p {
+    color: #000000;
+}
+
 a.siteLogoContainer > img.siteLogo {
     display: inline-block;
     object-fit: contain;
@@ -41,4 +49,21 @@ div.extraInfo{
     position: relative;
     top: -30px;
     width: 80%;
+}
+
+.btnCV, .btnContact {
+    border-radius: 20px;
+    font-family: Pacifico;
+}
+
+.btnCV:hover, .btnContact:hover {
+    color: #DDF4E7;
+}
+
+/* What I do Styling Section */
+div.cardBox {
+    /*background-color: red;*/
+    background-image: linear-gradient(to bottom right, rgb(190 227 206), rgba(0, 0, 0, 0.09)) !important;
+    box-shadow: 0 0 6px rgba(74, 74, 74, 1) inset !important;
+    border-radius: 10px !important;
 }
