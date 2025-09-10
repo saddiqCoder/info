@@ -2,6 +2,8 @@ body{
     font-family: "Ubuntu";
 }
 
+/*  ----- Header Content Styling Section ----- */
+
 .header-content {
     background-color: #DDF4E7;
 }
@@ -10,6 +12,16 @@ body{
     display: inline-block;
     overflow: hidden;
     object-fit: cover;
+}
+
+.topHeader .bag nav ul li a {
+    color: #0056ab;
+    transition: all 0.5s ease-out;
+}
+
+.topHeader .bag nav ul li a:hover {
+    color: #0dcaf0;
+    font-size: 18px;
 }
 
 nav {color: #26667F;}
@@ -24,7 +36,38 @@ nav {color: #26667F;}
     color: #124170;
 }
 
-.infoDetail {
+
+@media screen and (min-width: 576px) {
+    .myInfo{
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .myInfo{
+        padding-top: 14%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .myInfo{
+        margin-bottom: 70px;
+    }
+}
+
+/*  ----- Extral Info Styling ----- */
+.extraInfo {
+    background-color: rgb(173 209 189);
+    position: relative;
+    z-index: 1;
+    top: -43px;
+}
+
+.xi-txt i, .xi-txt p {
+    color: #1e6675;
+}
+
+/* .infoDetail {
     color: #26667F;
     font-size: 14px !important;
 }
@@ -35,7 +78,7 @@ nav {color: #26667F;}
 
 p.infoTxt + p {
     color: #000000;
-}
+} */
 
 a.siteLogoContainer > img.siteLogo {
     display: inline-block;
@@ -46,9 +89,6 @@ a.siteLogoContainer > img.siteLogo {
 
 div.extraInfo{
     border-radius: 100px;
-    position: relative;
-    top: -30px;
-    width: 80%;
 }
 
 .btnCV, .btnContact {
@@ -60,10 +100,37 @@ div.extraInfo{
     color: #DDF4E7;
 }
 
-/* What I do Styling Section */
+
+/* -----  What I do Styling Section ----- */
+@keyframes changeBg {
+  from {background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.09), rgb(190 227 206));}
+  to {background-image: linear-gradient(to bottom right, rgb(190 227 206), rgba(0, 0, 0, 0.09));}
+}
+
 div.cardBox {
     /*background-color: red;*/
-    background-image: linear-gradient(to bottom right, rgb(190 227 206), rgba(0, 0, 0, 0.09)) !important;
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.09), rgb(190 227 206));
     box-shadow: 0 0 6px rgba(74, 74, 74, 1) inset !important;
     border-radius: 10px !important;
+    animation-name: changeBg;
+    animation-duration: 4s;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.secondyHeaden{
+    font-family: "Special Elite";
+    color: #1e6675;
+}
+
+/* -----  Finish Jobs Styling Section ----- */
+.finishJobs {
+    background-color: #DDF4E7;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.contactsContainer {
+    background-color: rgb(63 101 79);
 }
