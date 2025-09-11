@@ -16,12 +16,12 @@ body{
 
 .topHeader .bag nav ul li a {
     color: #0056ab;
-    transition: all 0.5s ease-out;
+    transition: all 0.5s ease;
 }
 
 .topHeader .bag nav ul li a:hover {
     color: #0dcaf0;
-    font-size: 18px;
+    transform: scale(1.1,1.1);
 }
 
 nav {color: #26667F;}
@@ -61,6 +61,13 @@ nav {color: #26667F;}
     position: relative;
     z-index: 1;
     top: -43px;
+}
+
+@media screen and (max-width: 575px) {
+    .extraInfo {
+        top: -5px;
+        width: 99%;
+    }
 }
 
 .xi-txt i, .xi-txt p {
@@ -131,6 +138,16 @@ div.cardBox {
     padding-bottom: 10%;
 }
 
+/* -----  Footer Styling Section ----- */
 .contactsContainer {
     background-color: rgb(63 101 79);
+}
+
+.smallIconPinterest:hover{color: red; transform: scale(1.5,1.5);}
+.smallIconWhatsapp:hover{color: green; transform: scale(1.5,1.5);}
+.smallIconLinkedin:hover{color: #0056ab; transform: scale(1.5,1.5);}
+
+.contactsIcon > a > i{
+    color: white;
+    transition: all 0.5s ease;
 }
