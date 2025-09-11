@@ -1,0 +1,153 @@
+body{
+    font-family: "Ubuntu";
+}
+
+/*  ----- Header Content Styling Section ----- */
+
+.header-content {
+    background-color: #DDF4E7;
+}
+
+.siteLogoContainer {
+    display: inline-block;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.topHeader .bag nav ul li a {
+    color: #0056ab;
+    transition: all 0.5s ease;
+}
+
+.topHeader .bag nav ul li a:hover {
+    color: #0dcaf0;
+    transform: scale(1.1,1.1);
+}
+
+nav {color: #26667F;}
+
+.hi {
+    font-family: Pacifico;
+    color: #26667F;
+}
+
+.sadiq {
+    font-family: Shojumaru;
+    color: #124170;
+}
+
+
+@media screen and (min-width: 576px) {
+    .myInfo{
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .myInfo{
+        padding-top: 14%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .myInfo{
+        margin-bottom: 70px;
+    }
+}
+
+/*  ----- Extral Info Styling ----- */
+.extraInfo {
+    background-color: rgb(173 209 189);
+    position: relative;
+    z-index: 1;
+    top: -43px;
+}
+
+@media screen and (max-width: 575px) {
+    .extraInfo {
+        top: -5px;
+        width: 99%;
+    }
+}
+
+.xi-txt i, .xi-txt p {
+    color: #1e6675;
+}
+
+/* .infoDetail {
+    color: #26667F;
+    font-size: 14px !important;
+}
+
+.infoTxt {
+    color: #124170;
+}
+
+p.infoTxt + p {
+    color: #000000;
+} */
+
+a.siteLogoContainer > img.siteLogo {
+    display: inline-block;
+    object-fit: contain;
+    width: 75px;
+    height: 75px;
+}
+
+div.extraInfo{
+    border-radius: 100px;
+}
+
+.btnCV, .btnContact {
+    border-radius: 20px;
+    font-family: Pacifico;
+}
+
+.btnCV:hover, .btnContact:hover {
+    color: #DDF4E7;
+}
+
+
+/* -----  What I do Styling Section ----- */
+@keyframes changeBg {
+  from {background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.09), rgb(190 227 206));}
+  to {background-image: linear-gradient(to bottom right, rgb(190 227 206), rgba(0, 0, 0, 0.09));}
+}
+
+div.cardBox {
+    /*background-color: red;*/
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.09), rgb(190 227 206));
+    box-shadow: 0 0 6px rgba(74, 74, 74, 1) inset !important;
+    border-radius: 10px !important;
+    animation-name: changeBg;
+    animation-duration: 4s;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.secondyHeaden{
+    font-family: "Special Elite";
+    color: #1e6675;
+}
+
+/* -----  Finish Jobs Styling Section ----- */
+.finishJobs {
+    background-color: #DDF4E7;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+/* -----  Footer Styling Section ----- */
+.contactsContainer {
+    background-color: rgb(63 101 79);
+}
+
+.smallIconPinterest:hover{color: red; transform: scale(1.5,1.5);}
+.smallIconWhatsapp:hover{color: green; transform: scale(1.5,1.5);}
+.smallIconLinkedin:hover{color: #0056ab; transform: scale(1.5,1.5);}
+
+.contactsIcon > a > i{
+    color: white;
+    transition: all 0.5s ease;
+}
